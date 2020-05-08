@@ -1,0 +1,16 @@
+#服务器
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: utf-8
+    protocol-header-https-value: https
+    protocol-header: X-Forwarded-Proto
+
+
+spring:
+  #mongodb
+  mongodb:
+    #    host: localhost
+    #    port: 27017
+    #    database: test
+    uri: mongodb://mongodb.coralgolbal.com:27017/cg

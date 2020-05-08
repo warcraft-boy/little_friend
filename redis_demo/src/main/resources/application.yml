@@ -1,0 +1,21 @@
+#服务器
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: utf-8
+    protocol-header-https-value: https
+    protocol-header: X-Forwarded-Proto
+
+
+spring:
+  #redis
+  #  redis:
+  #    host: localhost
+  #    port: 6379
+  #    password:
+  #    database: 0
+  redis:
+    host: redis1.coralglobal.cn
+    port: 5379
+    password: P7MG3pmymcMIRvNsi4jM
+    database: 0

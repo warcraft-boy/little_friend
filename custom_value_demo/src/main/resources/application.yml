@@ -1,0 +1,21 @@
+#自定义属性配置
+custom:
+  #值
+  value: 建文帝
+  #对象
+  person:
+    name: chenjianwen
+    age: 18
+  #数组
+  arr: [1,2,3]
+  #list
+  list:
+    - 110
+    - 119
+    - 112
+  #map
+  map: {key1: value1,key2: value2}
+  #list中包含map
+  listMap:
+    - {list1: map1,list2: map2}
+    - {a: b,c: d}

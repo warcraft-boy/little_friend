@@ -1,0 +1,21 @@
+#服务器
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: utf-8
+    protocol-header-https-value: https
+    protocol-header: X-Forwarded-Proto
+
+
+spring:
+  #mq
+  rabbitmq:
+    #    host: localhost
+    #    port: 5672
+    #    username: guest
+    #    password: guest
+    host: rabbitmq2.coralgolbal.com
+    port: 5672
+    username: admin
+    password: cg123456
+    virtual-host: /dev
